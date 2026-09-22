@@ -1,0 +1,39 @@
+- id: Q01
+  question: "What payment methods do you accept?"
+  expected: "payment#methods"
+
+- id: Q02
+  question: "How long does standard shipping take?"
+  expected: "shipping#delivery"
+
+- id: Q03
+  question: "How do I start a return?"
+  expected: "returns-policy#how-to"
+
+- id: Q04
+  question: "Is accidental damage covered by the warranty?"
+  expected: "warranty#coverage"
+
+- id: Q05
+  question: "What does firmware 3.1 add to the WH-1000?"
+  expected: "firmware#v3.1"
+
+- id: Q06
+  question: "My return label expired before I dropped off the parcel. What should I do?"
+  expected: "shipping#returns"
+
+- id: Q07
+  question: "How do I clean the ear cushions on my WH-1000?"
+  expected: "wh1000#care"
+
+- id: Q08
+  question: "Can I return a gift card?"
+  expected: "returns-policy#exceptions"
+
+- id: Q09
+  question: "Is a refurbished WH-1000 returnable after 12 days?"
+  expected: "outlet#terms"
+
+- id: Q10
+  question: "Can I return refurbished earbuds I bought 11 days ago?"
+  expected: "outlet#terms"
