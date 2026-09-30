@@ -73,12 +73,14 @@ class Trace:
 
 def retrieve(index, question, top_k=TOP_K):
     candidates = index.similar(question, CANDIDATES)
-    reranked = rerank(index, question, candidates)
+    reranked = rerank(index, question, candidates[:top_k])
+    seen = {hit.chunk_id for hit in reranked}
+    ranked = reranked + [hit for hit in candidates if hit.chunk_id not in seen]
     return Retrieval(
         candidates=candidates,
         reranked=reranked,
-        ranked=reranked,
-        kept=reranked[:top_k],
+        ranked=ranked,
+        kept=ranked[:top_k],
     )
 
 

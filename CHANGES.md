@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-09-30 - Faster reranking
+Rerank only the results we keep, to speed up requests.
+
 ## 2026-09-22 - Evaluation and trace tools
 Added the evaluation set and the evaluate command, with recall@3, recall@10
 and MRR. Added inspect for live questions and trace for logged conversations.
