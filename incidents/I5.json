@@ -1,0 +1,129 @@
+{
+  "id": "I5",
+  "logged_at": "2026-10-04T10:05:00",
+  "channel": "web chat",
+  "question": "Can I return opened headphones if they're undamaged?",
+  "history": [],
+  "trace": {
+    "candidates": [
+      {
+        "chunk": "returns-policy#opened",
+        "similarity": 0.6533
+      },
+      {
+        "chunk": "wh1000#returns",
+        "similarity": 0.4959
+      },
+      {
+        "chunk": "warranty#coverage",
+        "similarity": 0.4293
+      },
+      {
+        "chunk": "eb20#returns",
+        "similarity": 0.4222
+      },
+      {
+        "chunk": "wh1000#care",
+        "similarity": 0.4176
+      },
+      {
+        "chunk": "returns-policy#exceptions",
+        "similarity": 0.4132
+      },
+      {
+        "chunk": "wh1000#overview",
+        "similarity": 0.4118
+      },
+      {
+        "chunk": "returns-policy#standard",
+        "similarity": 0.39
+      },
+      {
+        "chunk": "sp50#returns",
+        "similarity": 0.3776
+      },
+      {
+        "chunk": "firmware#v3.1",
+        "similarity": 0.3645
+      },
+      {
+        "chunk": "returns-policy#how-to",
+        "similarity": 0.3619
+      },
+      {
+        "chunk": "shipping#returns",
+        "similarity": 0.3558
+      },
+      {
+        "chunk": "firmware#v3.2",
+        "similarity": 0.3474
+      },
+      {
+        "chunk": "warranty#claims",
+        "similarity": 0.3428
+      },
+      {
+        "chunk": "outlet#terms",
+        "similarity": 0.3394
+      },
+      {
+        "chunk": "payment#methods",
+        "similarity": 0.1408
+      },
+      {
+        "chunk": "shipping#delivery",
+        "similarity": 0.0995
+      }
+    ],
+    "reranked": [
+      {
+        "chunk": "returns-policy#opened",
+        "similarity": 0.6533,
+        "boost": 1.9679,
+        "score": 2.6212
+      },
+      {
+        "chunk": "wh1000#returns",
+        "similarity": 0.4959,
+        "boost": 0.4572,
+        "score": 0.953
+      },
+      {
+        "chunk": "warranty#coverage",
+        "similarity": 0.4293,
+        "boost": 0.0844,
+        "score": 0.5138
+      }
+    ],
+    "kept": [
+      "returns-policy#opened",
+      "wh1000#returns",
+      "warranty#coverage"
+    ],
+    "assembly": {
+      "budget": 500,
+      "history_tokens": 0,
+      "chunks": [
+        {
+          "chunk": "returns-policy#opened",
+          "tokens": 134,
+          "status": "reached"
+        },
+        {
+          "chunk": "wh1000#returns",
+          "tokens": 132,
+          "status": "reached"
+        },
+        {
+          "chunk": "warranty#coverage",
+          "tokens": 144,
+          "status": "reached"
+        }
+      ],
+      "used_tokens": 410
+    },
+    "prompt": "You are TechNova's support assistant. Answer the customer using the help center context below.\n\nHelp center context:\n[returns-policy#opened]\nReturns Policy: Opened and used items\n\nOpened products can be returned within the same window if they're undamaged and complete. Headphones and earbuds must include every ear tip and cushion they came with. For hygiene reasons, earbuds with missing ear tips can't be accepted.\n\nOpened electronics have a 10 percent restocking fee, which is taken from your refund. Unopened products in sealed packaging are refunded in full.\n\nIf an opened product arrives back damaged, scratched, or with parts missing, we may send it back to you or offer a partial refund. Our team will email you photos and an explanation before deciding.\n\n[wh1000#returns]\nWH-1000 Headphones: Returns and warranty\n\nChanged your mind about your WH-1000? You can return the headphones within 15 days of delivery for a full refund, as long as they're in the original packaging with the case and both cables. Start the return from the Orders page.\n\nEvery WH-1000 is covered by TechNova's 1-year limited warranty against defects in materials and workmanship. Keep your order number, because you'll need it for a warranty claim.\n\nBattery wear, worn ear cushions, and accidental damage aren't covered. Replacement cushions and cables are sold on the accessories page.\n\n[warranty#coverage]\nLimited Warranty: What the warranty covers\n\nTechNova headphones, earbuds, and speakers come with a 1-year limited warranty from the date of delivery. It covers defects in materials and workmanship under normal use, for example a WH-1000 that stops charging, an earbud that loses sound, or a speaker with a failed driver.\n\nThe warranty doesn't cover accidental damage such as drops or liquid damage, normal wear such as worn cushions or scratches, or damage from unauthorized repairs.\n\nIf we confirm a defect, we'll repair or replace the product at no cost. A replacement is covered for the rest of the original warranty, or 90 days, whichever is longer.\n\nCustomer: Can I return opened headphones if they're undamaged?"
+  },
+  "answer": "Yes. Opened headphones can be returned within the return window if they're undamaged and include every ear tip and cushion. A 10 percent restocking fee applies. You can also exchange them within 30 days.",
+  "support_note": "25 days after delivery, the customer asked to exchange opened headphones for another color, quoting the assistant's answer. TechNova doesn't offer exchanges. Customers return the item and place a new order."
+}

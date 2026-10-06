@@ -1,0 +1,162 @@
+{
+  "id": "I3",
+  "logged_at": "2026-10-02T11:37:00",
+  "channel": "web chat",
+  "question": "What if it came from the Outlet? How long is the refund window for Outlet purchases?",
+  "history": [
+    {
+      "role": "Customer",
+      "text": "Hi, I bought WH-1000 headphones and opened them, but the fit isn't right for me. Can I still send them back?"
+    },
+    {
+      "role": "Assistant",
+      "text": "Yes. Opened products can be returned within 15 days of delivery, as long as they're undamaged and complete. Headphones need to come back with every ear tip and cushion they came with, plus the case and both cables. Opened electronics have a 10 percent restocking fee, which is taken from your refund."
+    },
+    {
+      "role": "Customer",
+      "text": "OK. They were delivered on the 3rd. Does the 15 days count from when I ordered or from delivery?"
+    },
+    {
+      "role": "Assistant",
+      "text": "The 15 days start on the delivery date shown in Orders, not the order date. If they were delivered on the 3rd, you can start the return until the 18th. Return shipping is free within the United States, and you'll get a prepaid label when you start the return."
+    },
+    {
+      "role": "Customer",
+      "text": "Is the restocking fee taken even if the box is in perfect condition?"
+    },
+    {
+      "role": "Assistant",
+      "text": "The fee applies to opened electronics, even when the box and the headphones are in perfect condition. Only unopened products in sealed packaging are refunded in full. To start the return, open Orders, choose the headphones, and select Return item."
+    },
+    {
+      "role": "Customer",
+      "text": "How long until I see the money back?"
+    },
+    {
+      "role": "Assistant",
+      "text": "Our warehouse inspects returns within 3 business days of arrival. After that, most banks show the refund within 5 to 10 business days."
+    }
+  ],
+  "trace": {
+    "candidates": [
+      {
+        "chunk": "outlet#terms",
+        "similarity": 0.637
+      },
+      {
+        "chunk": "returns-policy#opened",
+        "similarity": 0.5686
+      },
+      {
+        "chunk": "returns-policy#how-to",
+        "similarity": 0.5478
+      },
+      {
+        "chunk": "returns-policy#standard",
+        "similarity": 0.5351
+      },
+      {
+        "chunk": "returns-policy#exceptions",
+        "similarity": 0.5199
+      },
+      {
+        "chunk": "warranty#claims",
+        "similarity": 0.4885
+      },
+      {
+        "chunk": "wh1000#returns",
+        "similarity": 0.4619
+      },
+      {
+        "chunk": "eb20#returns",
+        "similarity": 0.4564
+      },
+      {
+        "chunk": "sp50#returns",
+        "similarity": 0.4365
+      },
+      {
+        "chunk": "shipping#returns",
+        "similarity": 0.4191
+      },
+      {
+        "chunk": "payment#methods",
+        "similarity": 0.4132
+      },
+      {
+        "chunk": "warranty#coverage",
+        "similarity": 0.4103
+      },
+      {
+        "chunk": "firmware#v3.2",
+        "similarity": 0.358
+      },
+      {
+        "chunk": "wh1000#overview",
+        "similarity": 0.3568
+      },
+      {
+        "chunk": "wh1000#care",
+        "similarity": 0.3504
+      },
+      {
+        "chunk": "shipping#delivery",
+        "similarity": 0.2975
+      },
+      {
+        "chunk": "firmware#v3.1",
+        "similarity": 0.2154
+      }
+    ],
+    "reranked": [
+      {
+        "chunk": "returns-policy#opened",
+        "similarity": 0.5686,
+        "boost": 1.6257,
+        "score": 2.1944
+      },
+      {
+        "chunk": "outlet#terms",
+        "similarity": 0.637,
+        "boost": 1.4434,
+        "score": 2.0804
+      },
+      {
+        "chunk": "returns-policy#how-to",
+        "similarity": 0.5478,
+        "boost": 0.115,
+        "score": 0.6627
+      }
+    ],
+    "kept": [
+      "returns-policy#opened",
+      "outlet#terms",
+      "returns-policy#how-to"
+    ],
+    "assembly": {
+      "budget": 500,
+      "history_tokens": 300,
+      "chunks": [
+        {
+          "chunk": "returns-policy#opened",
+          "tokens": 134,
+          "status": "reached"
+        },
+        {
+          "chunk": "outlet#terms",
+          "tokens": 141,
+          "status": "cut"
+        },
+        {
+          "chunk": "returns-policy#how-to",
+          "tokens": 137,
+          "status": "cut"
+        }
+      ],
+      "used_tokens": 434
+    },
+    "prompt": "You are TechNova's support assistant. Answer the customer using the help center context below.\n\nConversation so far:\nCustomer: Hi, I bought WH-1000 headphones and opened them, but the fit isn't right for me. Can I still send them back?\nAssistant: Yes. Opened products can be returned within 15 days of delivery, as long as they're undamaged and complete. Headphones need to come back with every ear tip and cushion they came with, plus the case and both cables. Opened electronics have a 10 percent restocking fee, which is taken from your refund.\nCustomer: OK. They were delivered on the 3rd. Does the 15 days count from when I ordered or from delivery?\nAssistant: The 15 days start on the delivery date shown in Orders, not the order date. If they were delivered on the 3rd, you can start the return until the 18th. Return shipping is free within the United States, and you'll get a prepaid label when you start the return.\nCustomer: Is the restocking fee taken even if the box is in perfect condition?\nAssistant: The fee applies to opened electronics, even when the box and the headphones are in perfect condition. Only unopened products in sealed packaging are refunded in full. To start the return, open Orders, choose the headphones, and select Return item.\nCustomer: How long until I see the money back?\nAssistant: Our warehouse inspects returns within 3 business days of arrival. After that, most banks show the refund within 5 to 10 business days.\n\nHelp center context:\n[returns-policy#opened]\nReturns Policy: Opened and used items\n\nOpened products can be returned within the same window if they're undamaged and complete. Headphones and earbuds must include every ear tip and cushion they came with. For hygiene reasons, earbuds with missing ear tips can't be accepted.\n\nOpened electronics have a 10 percent restocking fee, which is taken from your refund. Unopened products in sealed packaging are refunded in full.\n\nIf an opened product arrives back damaged, scratched, or with parts missing, we may send it back to you or offer a partial refund. Our team will email you photos and an explanation before deciding.\n\nCustomer: What if it came from the Outlet? How long is the refund window for Outlet purchases?"
+  },
+  "answer": "The same window applies, so you have 15 days from delivery to return it.",
+  "support_note": "A long chat about returning opened headphones. Near the end, the customer mentioned the headphones came from the TechNova Outlet. Return declined 11 days after delivery. The customer was told they had 15 days."
+}

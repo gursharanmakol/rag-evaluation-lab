@@ -1,0 +1,129 @@
+{
+  "id": "I4",
+  "logged_at": "2026-10-03T13:20:00",
+  "channel": "web chat",
+  "question": "What's the return window for Outlet purchases? I got a WH-1000 there 10 days ago.",
+  "history": [],
+  "trace": {
+    "candidates": [
+      {
+        "chunk": "outlet#terms",
+        "similarity": 0.575
+      },
+      {
+        "chunk": "returns-policy#standard",
+        "similarity": 0.5109
+      },
+      {
+        "chunk": "wh1000#returns",
+        "similarity": 0.4977
+      },
+      {
+        "chunk": "returns-policy#how-to",
+        "similarity": 0.4935
+      },
+      {
+        "chunk": "returns-policy#exceptions",
+        "similarity": 0.4859
+      },
+      {
+        "chunk": "warranty#claims",
+        "similarity": 0.4693
+      },
+      {
+        "chunk": "returns-policy#opened",
+        "similarity": 0.4637
+      },
+      {
+        "chunk": "sp50#returns",
+        "similarity": 0.4463
+      },
+      {
+        "chunk": "firmware#v3.2",
+        "similarity": 0.4368
+      },
+      {
+        "chunk": "wh1000#overview",
+        "similarity": 0.4362
+      },
+      {
+        "chunk": "eb20#returns",
+        "similarity": 0.4017
+      },
+      {
+        "chunk": "shipping#returns",
+        "similarity": 0.3994
+      },
+      {
+        "chunk": "wh1000#care",
+        "similarity": 0.3967
+      },
+      {
+        "chunk": "shipping#delivery",
+        "similarity": 0.3809
+      },
+      {
+        "chunk": "warranty#coverage",
+        "similarity": 0.3668
+      },
+      {
+        "chunk": "payment#methods",
+        "similarity": 0.3602
+      },
+      {
+        "chunk": "firmware#v3.1",
+        "similarity": 0.3495
+      }
+    ],
+    "reranked": [
+      {
+        "chunk": "outlet#terms",
+        "similarity": 0.575,
+        "boost": 1.3285,
+        "score": 1.9035
+      },
+      {
+        "chunk": "returns-policy#standard",
+        "similarity": 0.5109,
+        "boost": 0.669,
+        "score": 1.1799
+      },
+      {
+        "chunk": "wh1000#returns",
+        "similarity": 0.4977,
+        "boost": 0.4509,
+        "score": 0.9486
+      }
+    ],
+    "kept": [
+      "outlet#terms",
+      "returns-policy#standard",
+      "wh1000#returns"
+    ],
+    "assembly": {
+      "budget": 500,
+      "history_tokens": 0,
+      "chunks": [
+        {
+          "chunk": "outlet#terms",
+          "tokens": 141,
+          "status": "reached"
+        },
+        {
+          "chunk": "returns-policy#standard",
+          "tokens": 145,
+          "status": "reached"
+        },
+        {
+          "chunk": "wh1000#returns",
+          "tokens": 132,
+          "status": "reached"
+        }
+      ],
+      "used_tokens": 418
+    },
+    "prompt": "You are TechNova's support assistant. Answer the customer using the help center context below.\n\nHelp center context:\n[outlet#terms]\nTechNova Outlet: Outlet purchase terms\n\nThe TechNova Outlet sells inspected, graded units at a lower price, including open-box and refurbished stock. Quantities are limited, and an item in your cart isn't reserved until you check out. Outlet orders ship from a separate warehouse and usually arrive in 4 to 6 business days.\n\nOutlet purchases can be sent back for a refund within 7 days of delivery. After that, the sale is final, though the item is still covered for defects under a 90-day warranty.\n\nOutlet items can't be combined with promotions, partner gift cards, or price matching. Each listing shows the grade and photos of the actual unit or one in the same grade.\n\n[returns-policy#standard]\nReturns Policy: Return window for new products\n\nYou can return a new TechNova product within 15 days of delivery. This applies to headphones, earbuds, speakers, and accessories bought from techNova.com or the TechNova app. The 15 days start on the delivery date shown in Orders, not the order date.\n\nTo qualify, the product must be in its original packaging, with all cables, cases, and manuals included. Gift returns follow the same window, counted from the delivery date to the person who placed the order.\n\nIf your return window has already closed, a product that stopped working may still be covered by the Limited Warranty. Contact support and we'll check which option applies to your order.\n\n[wh1000#returns]\nWH-1000 Headphones: Returns and warranty\n\nChanged your mind about your WH-1000? You can return the headphones within 15 days of delivery for a full refund, as long as they're in the original packaging with the case and both cables. Start the return from the Orders page.\n\nEvery WH-1000 is covered by TechNova's 1-year limited warranty against defects in materials and workmanship. Keep your order number, because you'll need it for a warranty claim.\n\nBattery wear, worn ear cushions, and accidental damage aren't covered. Replacement cushions and cables are sold on the accessories page.\n\nCustomer: What's the return window for Outlet purchases? I got a WH-1000 there 10 days ago."
+  },
+  "answer": "You can return it within 15 days of delivery, so you're still within the window.",
+  "support_note": "The customer bought WH-1000 headphones from the TechNova Outlet and asked about returns. Return declined 10 days after delivery. The customer was told they had 15 days."
+}

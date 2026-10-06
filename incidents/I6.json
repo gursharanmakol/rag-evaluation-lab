@@ -1,0 +1,129 @@
+{
+  "id": "I6",
+  "logged_at": "2026-10-05T15:48:00",
+  "channel": "web chat",
+  "question": "What does firmware 3.2 fix on the WH-1000?",
+  "history": [],
+  "trace": {
+    "candidates": [
+      {
+        "chunk": "firmware#v3.1",
+        "similarity": 0.591
+      },
+      {
+        "chunk": "firmware#v3.2",
+        "similarity": 0.5313
+      },
+      {
+        "chunk": "warranty#claims",
+        "similarity": 0.4216
+      },
+      {
+        "chunk": "wh1000#care",
+        "similarity": 0.4163
+      },
+      {
+        "chunk": "wh1000#returns",
+        "similarity": 0.3941
+      },
+      {
+        "chunk": "warranty#coverage",
+        "similarity": 0.3853
+      },
+      {
+        "chunk": "wh1000#overview",
+        "similarity": 0.3236
+      },
+      {
+        "chunk": "sp50#returns",
+        "similarity": 0.3125
+      },
+      {
+        "chunk": "returns-policy#exceptions",
+        "similarity": 0.2705
+      },
+      {
+        "chunk": "returns-policy#opened",
+        "similarity": 0.2597
+      },
+      {
+        "chunk": "returns-policy#standard",
+        "similarity": 0.236
+      },
+      {
+        "chunk": "returns-policy#how-to",
+        "similarity": 0.2311
+      },
+      {
+        "chunk": "shipping#delivery",
+        "similarity": 0.2242
+      },
+      {
+        "chunk": "shipping#returns",
+        "similarity": 0.2161
+      },
+      {
+        "chunk": "outlet#terms",
+        "similarity": 0.2104
+      },
+      {
+        "chunk": "eb20#returns",
+        "similarity": 0.1987
+      },
+      {
+        "chunk": "payment#methods",
+        "similarity": 0.1799
+      }
+    ],
+    "reranked": [
+      {
+        "chunk": "firmware#v3.2",
+        "similarity": 0.5313,
+        "boost": 1.4841,
+        "score": 2.0154
+      },
+      {
+        "chunk": "firmware#v3.1",
+        "similarity": 0.591,
+        "boost": 0.5579,
+        "score": 1.1488
+      },
+      {
+        "chunk": "warranty#claims",
+        "similarity": 0.4216,
+        "boost": 0.4023,
+        "score": 0.8239
+      }
+    ],
+    "kept": [
+      "firmware#v3.2",
+      "firmware#v3.1",
+      "warranty#claims"
+    ],
+    "assembly": {
+      "budget": 500,
+      "history_tokens": 0,
+      "chunks": [
+        {
+          "chunk": "firmware#v3.2",
+          "tokens": 132,
+          "status": "reached"
+        },
+        {
+          "chunk": "firmware#v3.1",
+          "tokens": 132,
+          "status": "reached"
+        },
+        {
+          "chunk": "warranty#claims",
+          "tokens": 132,
+          "status": "reached"
+        }
+      ],
+      "used_tokens": 396
+    },
+    "prompt": "You are TechNova's support assistant. Answer the customer using the help center context below.\n\nHelp center context:\n[firmware#v3.2]\nWH-1000 Firmware Changelog: Version 3.2\n\nFirmware 3.2 for the WH-1000 was released in January 2026. It fixes noise cancellation briefly turning off when you switch between two connected devices, and it fixes a rare issue where the right ear cup stopped responding to taps.\n\nIt also improves battery reporting in the companion app, which now shows the remaining charge in 5 percent steps instead of 10.\n\nVersion 3.2 installs automatically through the companion app when the headphones are charging and connected to your phone. The update takes about 15 minutes. Don't turn off the headphones until the light stops flashing.\n\n[firmware#v3.1]\nWH-1000 Firmware Changelog: Version 3.1\n\nFirmware 3.1 for the WH-1000 was released in October 2025. It adds a low-latency mode for video and games, which you can turn on in the companion app under Sound settings.\n\nIt also fixes a problem where the voice prompts were too loud at low volume, and it shortens the time the headphones take to reconnect after they wake from sleep.\n\nVersion 3.1 is required before you can install later updates. If your headphones show an older version, update to 3.1 first, then check again for newer firmware.\n\n[warranty#claims]\nLimited Warranty: How to make a warranty claim\n\nOpen Orders, select the product, and choose Warranty claim. Describe the problem and when it started. We may ask for a short video, or suggest troubleshooting steps first, such as a reset or a firmware update.\n\nYou'll need your order number or proof of purchase. Products bought from other retailers are covered too, as long as you can show the receipt.\n\nOnce a claim is approved, we send a prepaid shipping label. Repairs usually take 7 to 10 business days from the day we receive the product. Replacements ship as soon as the defective unit is scanned at our warehouse.\n\nCustomer: What does firmware 3.2 fix on the WH-1000?"
+  },
+  "answer": "Firmware 3.2 fixes noise cancellation briefly turning off when you switch between two connected devices, and a rare issue where the right ear cup stopped responding to taps. It also shows battery level in 5 percent steps in the app.",
+  "support_note": "The customer says the answer was wrong: \"I updated to 3.2, but my pairing problem is still there.\""
+}
